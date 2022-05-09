@@ -13,6 +13,7 @@
 		C0D628052828313200A17FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D628032828313200A17FFF /* Main.storyboard */; };
 		C0D628072828313300A17FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D628062828313300A17FFF /* Assets.xcassets */; };
 		C0D6280A2828313300A17FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D628082828313300A17FFF /* LaunchScreen.storyboard */; };
+		C0D62815282872FC00A17FFF /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0D62813282872FC00A17FFF /* UserModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0D628062828313300A17FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0D628092828313300A17FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0D6280B2828313300A17FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D62814282872FC00A17FFF /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 		C0D627FC2828313200A17FFF /* Receptivos Floripa */ = {
 			isa = PBXGroup;
 			children = (
+				C0D6281628287E5100A17FFF /* Widgets */,
+				C0D62812282872DE00A17FFF /* Models */,
 				C0D62811282831AE00A17FFF /* Views */,
 				C0D627FD2828313200A17FFF /* AppDelegate.swift */,
 				C0D627FF2828313200A17FFF /* SceneDelegate.swift */,
@@ -73,6 +77,21 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C0D62812282872DE00A17FFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0D62813282872FC00A17FFF /* UserModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0D6281628287E5100A17FFF /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +167,7 @@
 			files = (
 				C0D628022828313200A17FFF /* ViewController.swift in Sources */,
 				C0D627FE2828313200A17FFF /* AppDelegate.swift in Sources */,
+				C0D62815282872FC00A17FFF /* UserModel.xcdatamodeld in Sources */,
 				C0D628002828313200A17FFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +386,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0D62813282872FC00A17FFF /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0D62814282872FC00A17FFF /* UserModel.xcdatamodel */,
+			);
+			currentVersion = C0D62814282872FC00A17FFF /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C0D627F22828313200A17FFF /* Project object */;
 }
